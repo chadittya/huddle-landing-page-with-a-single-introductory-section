@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex flex-col md:grid md:grid-cols-7 md:grid-rows-[0.3fr_0.3fr_0.2fr] min-h-screen items-center gap-16 md:gap-0">
       <div className="mx-10 md:mx-16 mt-16 md:row-start-1 md:col-start-1 md:row-end-3 md:col-end-5">
-        <Image src={illustration} alt="illustration mockup" />
+        <Image src={illustration} alt="" />
       </div>
       <div className="text-center md:text-left flex flex-col gap-5 md:row-start-1 md:col-start-5 md:row-end-3 md:col-end-8">
         <h1 className="px-10 font-semibold text-2xl md:text-4xl">
